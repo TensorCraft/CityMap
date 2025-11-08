@@ -22,9 +22,9 @@
     <div class="toolbar">
       <input id="fileInput" type="file" accept=".svg" />
       <div class="actions">
-        <button id="btnBuildings" class="btn">隐藏建筑 (B)</button>
-        <button id="btnFollow" class="btn">开启跟随 (V)</button>
-        <button id="btnDebug" class="btn">开启碰撞调试 (C)</button>
+        <button id="btnBuildings" class="btn">Buildings (B)</button>
+        <button id="btnFollow" class="btn">Camera Follow (V)</button>
+        <button id="btnDebug" class="btn">Collision Debug (C)</button>
         <span class="zoomLabel">Zoom: <span id="zoomLabel">1.00</span></span>
       </div>
     </div>
@@ -33,12 +33,11 @@
       <canvas id="canvas" style="width: 100%; height: calc(100vh - 56px); display: block;"></canvas>
 
       <div class="overlay">
-        <div style="font-weight: 600;">操作</div>
-        <div>W/S 油门/刹车，A/D 左右转向（自动回正）</div>
-        <div>鼠标滚轮缩放（以鼠标点为中心），左键拖动画布</div>
-        <div>B 显/隐建筑，V 开/关摄像机跟随</div>
-        <div>C 开启/关闭碰撞调试</div>
-        <div>加载你的 map.svg 后开始驾驶</div>
+        <div style="font-weight: 600;">Operations:</div>
+        <div>Mouse scroll: Zoom, Drag</div>
+        <div>B Show/Hide Buildings，V Camera Follow</div>
+        <div>C Collision Debug</div>
+        <div>Load your city map svg file to start</div>
       </div>
     </div>
   </div>
