@@ -1,10 +1,19 @@
-# MetaTraffic
+<p align="center">
+  <img src="./logo.png" width="80" style="border-radius: 12px;" />
+</p>
+
+<h1 align="center">MetaTraffic</h1>
+<p align="center">
+  A multi-agent environment runtime for studying coordination under partial observability
+</p>
 
 MetaTraffic is a multi-agent reinforcement learning environment runtime for training and evaluating decentralized policies under realistic perception constraints.
 
 The system focuses on **environment design, simulation dynamics, and agent interaction**, rather than model architecture alone. It is designed as a lightweight prototype of an agent training environment for real-world tasks.
+<p align="center">
+  <img src="./demo.gif" width="600"/>
+</p>
 
----
 
 ## Overview
 
